@@ -15,10 +15,6 @@
       "type": "string",
       "required": true
     },
-    "description": {
-      "type": "string",
-      "required": true
-    },
     "price": {
       "type": "float",
       "required": true
@@ -39,6 +35,10 @@
     },
     "featured": {
       "type": "boolean"
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
     }
   }
 }
