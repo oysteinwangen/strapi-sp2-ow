@@ -19,16 +19,6 @@
       "type": "float",
       "required": true
     },
-    "image": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
-      "plugin": "upload",
-      "required": true,
-      "pluginOptions": {}
-    },
     "slug": {
       "type": "uid",
       "targetField": "title"
@@ -39,6 +29,9 @@
     "description": {
       "type": "richtext",
       "required": true
+    },
+    "image_url": {
+      "type": "string"
     }
   }
 }
