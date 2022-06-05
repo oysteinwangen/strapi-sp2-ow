@@ -1,3 +1,3 @@
-# Strapi application
+# Strapi CMS
 
-A quick description of your strapi application
+CMS for https://wangen-sp2.netlify.app/
